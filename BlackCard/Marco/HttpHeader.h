@@ -75,9 +75,11 @@
 #define kHttpAPIUrl_waiterPay   kHttpAPIUrl_HOST@"/api/butlerservice/pay.json"
 
 #define kHttpAPIUrl_resetPassword         kHttpAPIUrl_HOST@"/api/blackcard/repassword.json"
-#define kHttpAPIUrl_userAgreement         kHttpAPIUrl_HOST@"/api/static/UserAgreement.html"
-#define kHttpAPIUrl_aboutMe               kHttpAPIUrl_HOST@"/api/static/about.html"
 
+
+
+#define kHttpAPIUrl_userAgreement         @"http://app.jingyingheika.com/static/UserAgreement.html"
+#define kHttpAPIUrl_aboutMe               @"http://app.jingyingheika.com/static/about.html"
 #define kHttpAPIUrl_webCallWaiter         @"http://www.jingyingheika.com/"
 
 //消息列表

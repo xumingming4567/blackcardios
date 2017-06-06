@@ -25,7 +25,6 @@
         _timeLabel=[[UILabel alloc] initWithFrame:CGRectMake(146, 30, 100, 20)];
         //白色区域
         _whiteView=[[UIView alloc] init];
-        _whiteView.layer.cornerRadius=5.0f;
         //文章内容
         _titleLabel=[[UILabel alloc] init];
         //图片区域
@@ -241,6 +240,7 @@
     _moreLabel.textAlignment=NSTextAlignmentLeft;
     
     _whiteView.frame=CGRectMake(50, 60, kMainScreenWidth-70, _commentBtn.frame.size.height+_commentBtn.frame.origin.y+10);
+    _whiteView.layer.cornerRadius=5.0f;
     
     CGRect frame=self.frame;
     frame.size.height=_whiteView.frame.size.height+_whiteView.frame.origin.y+10;
